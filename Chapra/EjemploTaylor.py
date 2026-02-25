@@ -1,9 +1,9 @@
 import math
 def f(x):
-    return: -0.1*x**4 - 0.15*x**3 - 0.5*x**2 - 0.25*x + 1.2
+    return -0.1*x**4 - 0.15*x**3 - 0.5*x**2 - 0.25*x + 1.2
 # 2. Parámetros del problema
 x = 0.5
-h = 0.5
+h = 0.005
 valor_real = -0.9125  # Valor exacto de la derivada f'(0.5)
 # 3. Fórmulas de Diferencias Finitas
 df_forward  = (f(x + h) - f(x)) / h
