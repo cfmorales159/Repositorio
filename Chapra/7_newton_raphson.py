@@ -34,6 +34,7 @@ def newton_raphson(x0, tol, max_iter):
             
         xi_nuevo = xi - (f(xi) / derivada)
         # ---------------------------------------
+  
         
         # Cálculo del error relativo aproximado (Chapra Eq. 3.5)
         ea = abs((xi_nuevo - xi) / xi_nuevo) * 100
@@ -56,3 +57,10 @@ iteraciones = 10
 
 raiz = newton_raphson(x_inicial, tolerancia, iteraciones)
 print(f"La raíz aproximada es: {raiz}")
+
+
+''' # Verificamos que xi_nuevo no sea cero antes de dividir
+if xi_nuevo != 0:
+    ea = abs((xi_nuevo - xi) / xi_nuevo) * 100
+else:
+    ea = 100 # O un valor por defecto si cae en cero '''
