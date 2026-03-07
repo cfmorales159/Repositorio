@@ -59,8 +59,10 @@ raiz = newton_raphson(x_inicial, tolerancia, iteraciones)
 print(f"La raíz aproximada es: {raiz}")
 
 
-''' # Verificamos que xi_nuevo no sea cero antes de dividir
-if xi_nuevo != 0:
+ # Verificamos que xi_nuevo no sea cero antes de dividir
+""" if xi_nuevo != 0:
     ea = abs((xi_nuevo - xi) / xi_nuevo) * 100
 else:
-    ea = 100 # O un valor por defecto si cae en cero '''
+    ea = 100  """# O un valor por defecto si cae en cero 
+# Descomentar shift+alt+a
+
