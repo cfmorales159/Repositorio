@@ -9,4 +9,4 @@ print(a+b==resultado_esperado)
 print("^"*40)
 # Mostar el valor que ve python
 print(f"Valor real de la cuenta en memoria: {a +b:.17f}")
-print(f"Valor real 0.3 leido por Python en memoria: {resultado_esperado:.17f}")
+print(f"Valor real 0.3 leido Python almacenado en meoria como: {resultado_esperado:.17f}")
